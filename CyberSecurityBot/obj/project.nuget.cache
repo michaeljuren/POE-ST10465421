@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QGknSpZcKkw=",
+  "dgSpecHash": "BRUhkww+PWU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\miuren\\OneDrive - MMI HOLDINGS LTD\\Personal Documents\\Docs\\rosebank-2026\\programming-2a\\POE-Part_1\\CyberSecurityBot\\POE-Part-1\\CyberSecurityBot\\CyberSecurityBot.csproj",
+  "projectFilePath": "C:\\Users\\micha\\OneDrive\\Documents\\Rosebank-2026\\Programming-2A\\POE-ST10465421\\CyberSecurityBot\\CyberSecurityBot.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\miuren\\.nuget\\packages\\system.windows.extensions\\10.0.0\\system.windows.extensions.10.0.0.nupkg.sha512"
+    "C:\\Users\\micha\\.nuget\\packages\\system.windows.extensions\\10.0.0\\system.windows.extensions.10.0.0.nupkg.sha512"
   ],
   "logs": []
 }
