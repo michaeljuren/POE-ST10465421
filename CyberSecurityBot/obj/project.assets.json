@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0-windows7.0": {
+    "net10.0-windows": {
       "System.Windows.Extensions/10.0.0": {
         "type": "package",
         "compile": {
@@ -53,40 +53,34 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": [
+    "net10.0-windows": [
       "System.Windows.Extensions >= 10.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\miuren\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\micha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miuren\\OneDrive - MMI HOLDINGS LTD\\Personal Documents\\Docs\\rosebank-2026\\programming-2a\\POE-Part_1\\CyberSecurityBot\\POE-Part-1\\CyberSecurityBot\\CyberSecurityBot.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Documents\\Rosebank-2026\\Programming-2A\\POE-ST10465421\\CyberSecurityBot\\CyberSecurityBot.csproj",
       "projectName": "CyberSecurityBot",
-      "projectPath": "C:\\Users\\miuren\\OneDrive - MMI HOLDINGS LTD\\Personal Documents\\Docs\\rosebank-2026\\programming-2a\\POE-Part_1\\CyberSecurityBot\\POE-Part-1\\CyberSecurityBot\\CyberSecurityBot.csproj",
-      "packagesPath": "C:\\Users\\miuren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miuren\\OneDrive - MMI HOLDINGS LTD\\Personal Documents\\Docs\\rosebank-2026\\programming-2a\\POE-Part_1\\CyberSecurityBot\\POE-Part-1\\CyberSecurityBot\\obj\\",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Documents\\Rosebank-2026\\Programming-2A\\POE-ST10465421\\CyberSecurityBot\\CyberSecurityBot.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Documents\\Rosebank-2026\\Programming-2A\\POE-ST10465421\\CyberSecurityBot\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\miuren\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {}
         }
@@ -101,10 +95,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net10.0-windows7.0": {
+      "net10.0-windows": {
+        "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "dependencies": {
           "System.Windows.Extensions": {
@@ -128,7 +123,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
