@@ -22,7 +22,7 @@ namespace CyberSecurityBot
         private const string AsciiArtWithSubtitle = 
             AsciiArt +
             "\r\n\r\n" +
-            "                                          Cybersecurity Awareness Bot                                       ";
+            "                                                 Cybersecurity Awareness Bot                                       ";
  
         /// <summary>
         /// Creates a read-only RichTextBox containing the ASCII banner.

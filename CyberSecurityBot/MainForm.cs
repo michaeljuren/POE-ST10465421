@@ -38,6 +38,7 @@ namespace CyberSecurityBot
             InitializeComponent();
             PlayWelcomeSound();
             BeginInlineNamePrompt();
+            Shown += (_, _) => inputBox.Focus();
         }
 
         // ─── Build UI ──────────────────────────────────────────────────────────
@@ -70,25 +71,6 @@ namespace CyberSecurityBot
                 dock: DockStyle.Fill);
 
             headerPanel.Controls.Add(asciiHeader);
-
-            // ── Status bar ────────────────────────────────────────────────────
-            statusBar = new Panel
-            {
-                Dock      = DockStyle.Bottom,
-                Height    = 28,
-                BackColor = BgMid,
-            };
-
-            statusLabel = new Label
-            {
-                Text      = "●  Connected",
-                ForeColor = AccentGreen,
-                Font      = new Font("Segoe UI", 8.5f),
-                AutoSize  = true,
-                Location  = new Point(14, 6),
-            };
-
-            statusBar.Controls.Add(statusLabel);
 
             // ── Input panel ───────────────────────────────────────────────────
             inputPanel = new Panel
