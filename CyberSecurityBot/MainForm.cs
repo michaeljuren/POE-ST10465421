@@ -15,7 +15,6 @@ namespace CyberSecurityBot
         private Button sendButton = null!;
         private Panel inputPanel = null!;
         private Panel statusBar = null!;
-        private Label statusLabel = null!;
 
         // Bot logic
         private readonly ResponseEngine _engine = new ResponseEngine();
