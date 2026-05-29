@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Windows.Extensions" Version="10.0.0" />
     <None Include="welcome.wav">
     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
   </None>
