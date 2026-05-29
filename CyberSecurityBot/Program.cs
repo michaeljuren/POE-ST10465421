@@ -1,13 +1,18 @@
-﻿using CyberSecurityBot;
+﻿using System;
+using System.Windows.Forms;
 
-class Program
+namespace CyberSecurityBot
 {
-    static void Main(string[] args)
+    internal static class Program
     {
-        UIHelper.DisplayHeader();
-        AudioPlayer.PlayWelcome();
-        
-        ChatBot bot = new ChatBot();
-        bot.Start();
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+ 
+            Application.Run(new MainForm());
+        }
     }
 }
