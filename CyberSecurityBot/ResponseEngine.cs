@@ -78,7 +78,7 @@ namespace CyberSecurityBot
             ["what's your purpose?"] = "I promote cybersecurity awareness and safe online practices.",
             ["what is your purpose"] = "I promote cybersecurity awareness and safe online practices.",
             ["what can i ask about?"]= "You can ask about passwords, phishing, malware, safe browsing, two-factor authentication, VPNs, and social engineering. Try typing any of those topics!",
-            ["help"]                 = "Topics I can help with:\n  • passwords\n  • phishing\n  • malware\n  • safe browsing\n  • two-factor authentication  (or: 2fa)\n  • vpn\n  • social engineering\n  • ransomware\n  • data breach\n\nJust type a topic or ask a full question!",
+            ["help"]                 = "Topics I can help with:\n  • passwords\n  • phishing\n  • malware\n  • ransomware\n\nJust type a topic or ask a full question!",
         };
 
         // ── Keyword responses ─────────────────────────────────────────────────
