@@ -15,6 +15,8 @@ namespace CyberSecurityBot
         private Button sendButton = null!;
         private Panel inputPanel = null!;
         private Panel statusBar = null!;
+        private Button quizButton = null!;
+        private Label statusLabel = null!;
 
         // Bot logic
         private readonly ResponseEngine _engine = new ResponseEngine();
@@ -37,7 +39,7 @@ namespace CyberSecurityBot
             InitializeComponent();
             PlayWelcomeSound();
             BeginInlineNamePrompt();
-            Shown += (_, _) => inputBox.Focus();
+            Load += (_, _) => inputBox.Focus();
         }
 
         // ─── Build UI ──────────────────────────────────────────────────────────
@@ -70,6 +72,26 @@ namespace CyberSecurityBot
                 dock: DockStyle.Fill);
 
             headerPanel.Controls.Add(asciiHeader);
+            
+
+            // ── Status bar ────────────────────────────────────────────────────
+            statusBar = new Panel
+            {
+                Dock      = DockStyle.Bottom,
+                Height    = 28,
+                BackColor = BgMid,
+            };
+
+            statusLabel = new Label
+            {
+                Text      = "●  Connected",
+                ForeColor = AccentGreen,
+                Font      = new Font("Segoe UI", 8.5f),
+                AutoSize  = true,
+                Location  = new Point(14, 6),
+            };
+
+            statusBar.Controls.Add(statusLabel);
 
             // ── Input panel ───────────────────────────────────────────────────
             inputPanel = new Panel
@@ -107,7 +129,23 @@ namespace CyberSecurityBot
             sendButton.FlatAppearance.MouseDownBackColor  = Color.FromArgb(0, 150, 150);
             sendButton.Click += SendButton_Click;
 
-            // Wrap input + button in a rounded inner panel
+            quizButton = new Button
+            {
+                Text      = "Quiz",
+                Dock      = DockStyle.Right,
+                Width     = 110,
+                BackColor = AccentGreen,
+                ForeColor = BgDark,
+                Font      = new Font("Segoe UI", 9.5f, FontStyle.Bold),
+                FlatStyle = FlatStyle.Flat,
+                Cursor    = Cursors.Hand,
+            };
+            quizButton.FlatAppearance.BorderSize = 0;
+            quizButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(40, 200, 90);
+            quizButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(20, 160, 70);
+            quizButton.Click += QuizButton_Click;
+
+            // Wrap input + buttons in a rounded inner panel
             var innerWrap = new Panel
             {
                 Dock      = DockStyle.Fill,
@@ -116,6 +154,7 @@ namespace CyberSecurityBot
             };
             innerWrap.Controls.Add(inputBox);
             innerWrap.Controls.Add(sendButton);
+            innerWrap.Controls.Add(quizButton);
             innerWrap.Paint += RoundedPanel_Paint;
 
             inputPanel.Controls.Add(innerWrap);
@@ -197,6 +236,19 @@ namespace CyberSecurityBot
                 $"Hello, {_userName}! You can ask me about passwords, phishing, malware, " +
                 "safe browsing, and more. Type \"help\" to see all topics.",
                 AccentCyan, BotBubble);
+        }
+
+        // ─── Quiz launch ───────────────────────────────────────────────────────
+        private void QuizButton_Click(object? sender, EventArgs e)
+        {
+            using var quiz = new QuizForm();
+            quiz.ShowDialog(this);
+
+            AppendMessage("BOT",
+                "Welcome back! Feel free to keep asking questions, or click Quiz again anytime to try for a better score.",
+                AccentCyan, BotBubble);
+
+            inputBox.Focus();
         }
 
         // ─── Sound ─────────────────────────────────────────────────────────────
