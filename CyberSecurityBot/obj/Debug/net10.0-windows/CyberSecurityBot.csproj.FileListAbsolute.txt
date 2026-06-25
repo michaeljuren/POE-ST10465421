@@ -23,14 +23,14 @@ C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\Cy
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.AssemblyInfo.cs
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.csproj.CoreCompileInputs.cache
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.sourcelink.json
-C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.dll
-C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\refint\CyberSecurityBot.dll
-C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.pdb
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.exe
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\bin\Debug\net10.0-windows\welcome.wav
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.deps.json
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.runtimeconfig.json
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.dll
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\bin\Debug\net10.0-windows\CyberSecurityBot.pdb
+C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.dll
+C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\refint\CyberSecurityBot.dll
+C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.pdb
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\CyberSecurityBot.genruntimeconfig.cache
 C:\Users\micha\OneDrive\Documents\Rosebank-2026\Programming-2A\POE-ST10465421\CyberSecurityBot\obj\Debug\net10.0-windows\ref\CyberSecurityBot.dll
